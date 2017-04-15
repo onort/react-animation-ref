@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Link, Route } from 'react-router-dom'
+import { BrowserRouter, NavLink, Route } from 'react-router-dom'
 import Basic from './components/basic/Basic'
 import ButtonMenu from './components/buttonMenu/ButtonMenu'
 
 const Links = () => (
   <nav className="navigation">
-    <Link to="/">Home</Link>
-    <Link to="/basic">Basic</Link>
-    <Link to="/buttonMenu">Button Menu</Link>
+    <NavLink exact activeClassName="active" to="/">Home</NavLink>
+    <NavLink activeClassName="active" to="/basic">Basic</NavLink>
+    <NavLink activeClassName="active" to="/buttonMenu">Button Menu</NavLink>
   </nav>
 )
 

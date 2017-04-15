@@ -7,17 +7,17 @@ import './ButtonMenu.css'
 // Value of 1 degree in radians
 const DEG_TO_RAD = 0.0174533
 // Diameter of the main button in pixels
-const MAIN_BUTTON_DIAM = 90
+const MAIN_BUTTON_DIAM = 75
 const CHILD_BUTTON_DIAM = 50
 // The number of child buttons that fly out from the main button
 const NUM_CHILDREN = 3
 // Hard coded position values of the mainButton
 const M_X = 200
-const M_Y = 300
+const M_Y = 250
 
 // How far away from the main button does the child buttons go
-const FLY_OUT_RADIUS = 120,
-	SEPARATION_ANGLE = 40, //degrees
+const FLY_OUT_RADIUS = 100,
+	SEPARATION_ANGLE = 50, //degrees
 	FAN_ANGLE = (NUM_CHILDREN - 1) * SEPARATION_ANGLE, //degrees
 	BASE_ANGLE = ((180 - FAN_ANGLE)/2) // degrees
 
@@ -98,8 +98,8 @@ class ButtonMenu extends Component {
                     style={{ width: interpolatingStyle.width, height: interpolatingStyle.height,
                             top: interpolatingStyle.top, left: interpolatingStyle.left }}
                   >
-                  <i className={`fa fa-${buttonIcons[index]} fa-lg`}></i>
-                </div>}
+                    <i className={`fa fa-${buttonIcons[index]} fa-lg`}></i>
+                  </div>}
               </Motion>
             )
           })}
