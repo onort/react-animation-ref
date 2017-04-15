@@ -1,3 +1,5 @@
+// @flow
+
 // As seen @ https://medium.com/@nashvail/a-gentle-introduction-to-react-motion-dc50dd9f2459
 
 import React, { Component } from 'react'
@@ -39,7 +41,12 @@ function finalDeltaPositions(index) {
 const buttonIcons = ['cog', 'plus', 'user']
 
 class ButtonMenu extends Component {
-  constructor(props) {
+  state: {
+    menuOpen: boolean,
+  }
+  openMenu: () => void
+
+  constructor(props: any) {
     super(props)
     this.state = { 
       menuOpen: false,
@@ -65,7 +72,7 @@ class ButtonMenu extends Component {
 		};
 	}
 
-  finalChildButtonStyles(childIndex) {
+  finalChildButtonStyles(childIndex: number) {
 		let{deltaX, deltaY} = finalDeltaPositions(childIndex);
 		return {
 			width: CHILD_BUTTON_DIAM,

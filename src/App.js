@@ -1,3 +1,5 @@
+// @flow
+
 import React from 'react';
 import './App.css';
 import { BrowserRouter, NavLink, Route } from 'react-router-dom'

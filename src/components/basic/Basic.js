@@ -1,10 +1,19 @@
+// @flow
+
 import React, { Component } from 'react';
 import { Motion, spring } from 'react-motion'
 import './Basic.css'
 
+
 class Basic extends Component {
-  constructor(props) {
+  state: {
+    open: boolean,
+  }
+  toggle: () => void
+  
+  constructor(props: any) {
     super(props)
+    console.log(this.props);
     this.state = { open: false }
     this.toggle = this.toggle.bind(this)
   }
