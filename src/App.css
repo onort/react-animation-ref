@@ -20,6 +20,23 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
+.text-input {
+  padding: 5px 10px;
+  font-size: 18px;
+  color: #4d4d4d;
+  line-height: 1.25;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px; }
+
+.btn {
+  background-color: transparent;
+  padding: 7px 14px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer; }
+
 body {
   font-family: 'Roboto', Verdana, sans-serif;
   background-color: #e2e1e0; }

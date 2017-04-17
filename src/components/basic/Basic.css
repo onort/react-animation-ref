@@ -1,13 +1,6 @@
 .toggle-button {
-  padding: 10px 20px;
   border: 1px solid #666666;
-  border-radius: 5px;
-  background-color: transparent;
-  margin: 20px 0;
-  font-size: 14px;
-  color: #333;
-  cursor: pointer;
-  letter-spacing: 1px; }
+  color: #333; }
 
 .box {
   width: 100px;
