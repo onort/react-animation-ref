@@ -14,7 +14,7 @@ const CHILD_BUTTON_DIAM = 50
 // The number of child buttons that fly out from the main button
 const NUM_CHILDREN = 3
 // Hard coded position values of the mainButton
-const M_X = 100
+const M_X = 200
 const M_Y = 300
 
 // How far away from the main button does the child buttons go
