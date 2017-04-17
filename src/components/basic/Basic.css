@@ -1,19 +1,18 @@
-.container {
-  margin: 20px 50px; }
-  .container .toggle-button {
-    padding: 10px 20px;
-    border: 1px solid #666666;
-    border-radius: 5px;
-    background-color: transparent;
-    margin: 20px 0;
-    font-size: 14px;
-    color: #333;
-    cursor: pointer;
-    letter-spacing: 1px; }
-  .container .box {
-    width: 100px;
-    height: 100px;
-    border: 1px solid white;
-    background-color: #68AEF0;
-    border-radius: 4px;
-    position: 'absolute'; }
+.toggle-button {
+  padding: 10px 20px;
+  border: 1px solid #666666;
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 20px 0;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  letter-spacing: 1px; }
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  background-color: #68AEF0;
+  border-radius: 4px;
+  position: 'absolute'; }

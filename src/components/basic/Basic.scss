@@ -1,27 +1,25 @@
 @import '../../_colors.scss';
 
-.container {
-  margin: 20px 50px;
 
-  .toggle-button {
-    padding: 10px 20px;
-    border: 1px solid lighten($black, 20);
-    border-radius: 5px;
-    background-color: transparent;
-    margin: 20px 0;
-    font-size: 14px;
-    color: $black;
-    cursor: pointer;
-    letter-spacing: 1px;
-  }
-
-  .box {
-    width: 100px;
-    height: 100px;
-    border: 1px solid white;
-    background-color: $l-blue;
-    border-radius: 4px;
-    position: 'absolute';
-  }
+.toggle-button {
+  padding: 10px 20px;
+  border: 1px solid lighten($black, 20);
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 20px 0;
+  font-size: 14px;
+  color: $black;
+  cursor: pointer;
+  letter-spacing: 1px;
 }
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  background-color: $l-blue;
+  border-radius: 4px;
+  position: 'absolute';
+}
+
 

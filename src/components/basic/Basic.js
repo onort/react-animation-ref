@@ -13,7 +13,6 @@ class Basic extends Component {
   
   constructor(props: any) {
     super(props)
-    console.log(this.props);
     this.state = { open: false }
     this.toggle = this.toggle.bind(this)
   }
