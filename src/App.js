@@ -9,7 +9,7 @@ const Links = () => (
   <nav className="navigation">
     <NavLink exact activeClassName="active" to="/">Home</NavLink>
     <NavLink activeClassName="active" to="/basic">Basic</NavLink>
-    <NavLink activeClassName="active" to="/buttonMenu">Button Menus</NavLink>
+    <NavLink activeClassName="active" to="/button-menu">Button Menus</NavLink>
   </nav>
 )
 
@@ -19,7 +19,7 @@ const App = () => (
       <Links />
       <Route exact path="/" component={Home} />
       <Route path="/basic" component={Basic} />
-      <Route path="/buttonMenu" component={ButtonMenu} />
+      <Route path="/button-menu" component={ButtonMenu} />
     </div>
   </BrowserRouter>
 )

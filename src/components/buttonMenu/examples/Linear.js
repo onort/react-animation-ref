@@ -6,7 +6,6 @@ import '../ButtonMenu.css'
 
 const MAIN_BUTTON_DIAM = 75
 const CHILD_BUTTON_DIAM = 50
-const NUM_CHILDREN = 3
 const buttonIcons = ['cog', 'plus', 'user']
 const M_X = 400
 const M_Y = 300
