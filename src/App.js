@@ -11,6 +11,7 @@ const Links = () => (
     <NavLink activeClassName="active" to="/basic">Basic</NavLink>
     <NavLink activeClassName="active" to="/button-menu">Button Menus</NavLink>
     <NavLink activeClassName="active" to="/enter-exit">Enter Exit</NavLink>
+    {/*<NavLink activeClassName="active" to="/exp">Exp</NavLink>*/}
   </nav>
 )
 
@@ -22,6 +23,7 @@ const App = () => (
       <Route path="/basic" component={Basic} />
       <Route path="/button-menu" component={ButtonMenu} />
       <Route path="/enter-exit" component={EnterExit} />
+      {/*<Route path="/exp" component={Exp} />*/}
     </div>
   </BrowserRouter>
 )
