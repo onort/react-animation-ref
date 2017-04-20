@@ -21,6 +21,7 @@ class EnterExit extends Component {
     entry: string,
     items: Array<Item>
   }
+  textInput: any
   handleAdd: () => void
   handleRemove: () => void
   handleInputChange: () => void
@@ -41,7 +42,7 @@ class EnterExit extends Component {
   }
 
   componentDidMount() {
-    this.refs.textInput.focus()
+    this.textInput.focus()
   }
 
   handleAdd(e: SyntheticEvent) {
@@ -86,7 +87,7 @@ class EnterExit extends Component {
       <div className="container enter-exit">
         <form onSubmit={this.handleAdd} className="form">
           <input
-            ref="textInput"
+            ref={input => this.textInput = input}
             className="text-input"
             type="text"
             value={entry}

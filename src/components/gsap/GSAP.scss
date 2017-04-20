@@ -1,0 +1,28 @@
+.gsap {
+
+  .btn {
+    border-color: lighten(#333, 50);
+    margin: 0 5px;
+    background-color: white;
+  }
+
+  .box-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+
+    h3 {
+      color: white;
+      font-size: 20px;
+    }
+
+  }
+}

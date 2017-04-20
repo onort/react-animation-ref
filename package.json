@@ -9,6 +9,7 @@
     "react-scripts": "0.9.5"
   },
   "dependencies": {
+    "gsap": "^1.19.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-motion": "^0.4.7",
