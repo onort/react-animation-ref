@@ -1,6 +1,8 @@
 .toggle-button {
-  border: 1px solid #666666;
-  color: #333; }
+  border: 1px solid gray;
+  color: #333;
+  background-color: white;
+  margin: 10px; }
 
 .box {
   width: 100px;

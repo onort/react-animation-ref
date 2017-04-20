@@ -3,7 +3,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, NavLink, Route } from 'react-router-dom'
-import { Basic, ButtonMenu, EnterExit, Home } from './components'
+import { Basic, ButtonMenu, EnterExit, GSAP, Home } from './components'
 
 const Links = () => (
   <nav className="navigation">
@@ -11,6 +11,7 @@ const Links = () => (
     <NavLink activeClassName="active" to="/basic">Basic</NavLink>
     <NavLink activeClassName="active" to="/button-menu">Button Menus</NavLink>
     <NavLink activeClassName="active" to="/enter-exit">Enter Exit</NavLink>
+    <NavLink activeClassName="active" to="/gsap">GSAP</NavLink>
     {/*<NavLink activeClassName="active" to="/exp">Exp</NavLink>*/}
   </nav>
 )
@@ -23,6 +24,7 @@ const App = () => (
       <Route path="/basic" component={Basic} />
       <Route path="/button-menu" component={ButtonMenu} />
       <Route path="/enter-exit" component={EnterExit} />
+      <Route path="/gsap" component={GSAP} />
       {/*<Route path="/exp" component={Exp} />*/}
     </div>
   </BrowserRouter>

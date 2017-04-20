@@ -46,15 +46,17 @@ body {
   font-family: 'Oswald', sans-serif;
   background-color: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
-  .navigation a {
-    margin: 10px;
-    text-decoration: none;
-    letter-spacing: 0.5px;
-    font-size: 20px;
-    color: gray;
-    transition: color 0.2s ease; }
-    .navigation a.active {
-      color: #333; }
+
+.navigation a {
+  margin: 10px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  color: gray;
+  transition: color 0.2s ease; }
+
+.navigation a.active {
+  color: #333; }
 
 .container {
   max-width: 800px;
@@ -65,4 +67,6 @@ body {
 .title {
   color: #333;
   font-weight: normal;
-  font-size: 20px; }
+  font-size: 24px;
+  margin: 10px 0;
+  letter-spacing: 1px; }
